@@ -7,6 +7,7 @@ output: slidy_presentation
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+load("highriskintersections.RData")
 ```
 
 ## Intersections are dangerous!
@@ -14,6 +15,11 @@ knitr::opts_chunk$set(echo = FALSE)
 Driving can be a dangerous activity and it's especially dangerous at intersections.  
 
 The New Zealand government intends to improve safety at intersections by analyzing intersections that are particularly dangerous and actively trying to improve the safety.
+
+The following chart shows distribution of casualties for the 100 most dangerous intersections in New Zealand.
+```{r needlessplot}
+  boxplot(highriskintersections$Total.Casualties)
+```
 
 There is further information here: http://www.nzta.govt.nz/resources/high-risk-intersections-guide/
 
