@@ -21,7 +21,7 @@ There is further information here: http://www.nzta.govt.nz/resources/high-risk-i
 
 To help the NZTA and public analyze the data th High Risk Intersections application will help.
 
-The application has the following features
+The application has the following features:
 
 - View a table of high risk intersections
 - Built-in documentation
@@ -33,7 +33,6 @@ The application has the following features
 
 The following screenshot shows the application in action
 ![image](apppic.png)
-
 
 
 ## Thanks
